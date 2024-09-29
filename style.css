@@ -1,27 +1,69 @@
+/* General body styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif; /* Professional font */
+    background-color: #1E1E1E; /* Dark background for coding feel */
+    color: #CFCFCF; /* Light text color */
     margin: 0;
     padding: 0;
+    text-align: center;
 }
+
+/* Header styling */
 header {
-    background-color: #333;
-    color: white;
-    text-align: center;
+    background-color: #2D2D2D; /* Darker header */
+    color: #61DAFB; /* Subtle neon blue for text */
     padding: 20px 0;
+    font-family: 'Fira Code', monospace; /* Coding-style font for headers */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
 }
-h1 {
-    margin: 0;
-}
-section#projects {
+
+/* Section styling */
+section {
+    margin: 20px;
     padding: 20px;
+    background-color: #252526; /* Slightly lighter background for sections */
+    border-radius: 10px; /* Soft rounded corners for a clean look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for depth */
 }
-footer {
-    background-color: #333;
+
+/* Heading and paragraph styling */
+h2 {
+    color: #9CDCFE; /* Light blue for section titles */
+    font-family: 'Fira Code', monospace; /* Coding font for section headers */
+    font-size: 1.8rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif; /* Professional font for body text */
+    color: #D4D4D4; /* Light gray text */
+}
+
+/* Link and button styling */
+a {
+    color: #C586C0; /* Neon purple for links */
+    text-decoration: none;
+    border: 2px solid #C586C0;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #C586C0;
     color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+}
+
+a.button {
+    background-color: #007ACC; /* Visual Studio Code blue */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif; /* Professional font for buttons */
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+a.button:hover {
+    background-color: #005A9E; /* Darken on hover */
 }
